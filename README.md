@@ -18,7 +18,8 @@ The main objective of this project is to build a **data warehouse and design a d
 ## Process
 ![image](https://github.com/priyanthan07/Data-warehouse-Dashboard-implementation/assets/129021635/56b97593-f4e8-41cf-9ae9-0b446438cbb3)
 
-## ETL
+## ETL 
+All the ETL processes were done using the Mage.ai tool.
 ### Extract
     The data was extracted from Google Cloud Storage.
 
@@ -27,5 +28,8 @@ The main objective of this project is to build a **data warehouse and design a d
         removing duplicates
         Create dimension tables
         Create Fact table
+
+### Load
+       Transformed data loaded into the big query. 
 
 
