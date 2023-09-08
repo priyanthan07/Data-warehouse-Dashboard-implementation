@@ -53,6 +53,10 @@ This table contains the required columns from the Data Warehouse for analytics p
 
 ![image](https://github.com/priyanthan07/Data-warehouse-Dashboard-implementation/assets/129021635/458cfef1-7fe5-4462-9ee7-2bd7a30b5c25)
 
+## Dashboard
+The Looker Studio can be used for dashboard creation. This can be connected with BigQuery.
+![image](https://github.com/priyanthan07/Data-warehouse-Dashboard-implementation/assets/129021635/05107586-55c3-4e09-bf93-8a932254cf45)
+
 
 
 
