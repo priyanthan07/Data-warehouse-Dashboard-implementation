@@ -1,4 +1,4 @@
-![image](https://github.com/priyanthan07/Data-warehouse-Dashboard-implementation/assets/129021635/aea881e4-2da3-4f19-a6b1-59b577957b1a)# Data-warehouse-Dashboard-implementation
+# Data-warehouse-Dashboard-implementation
 
 ## Introduction
 The main objective of this project is to build a **data warehouse and design a dashboard** for analytics purposes.
