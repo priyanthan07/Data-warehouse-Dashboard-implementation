@@ -1,0 +1,32 @@
+CREATE OR REPLACE TABLE `cargils-assignment-pri.cargils_assignment_ds.tbl_analytics` AS (
+SELECT 
+f.SALES_ID,
+f.STATUS,
+f.SALES,
+f.QUANTITYORDERED,
+f.PRICEEACH,
+t.DAY_ID,
+t.MONTH_ID,
+t.YEAR_ID,
+t.WEEKDAY,
+c.CUSTOMERNAME,
+c.CITY,
+c.STATE,
+c.COUNTRY,
+c.TERRITORY,
+p.MSRP,
+p.PRODUCTLINE,
+d.DEALSIZE
+
+
+FROM 
+
+`cargils-assignment-pri.cargils_assignment_ds.Salesfact_table` f
+JOIN `cargils-assignment-pri.cargils_assignment_ds.time_dim` t  ON 
+f.TIME_ID=t.TIME_ID
+JOIN `cargils-assignment-pri.cargils_assignment_ds.dealsize_dim` d  ON 
+d.DEAL_ID=f.DEAL_ID  
+JOIN `cargils-assignment-pri.cargils_assignment_ds.product_dim` p  ON 
+p.PRODUCT_ID=f.PRODUCT_ID  
+JOIN `cargils-assignment-pri.cargils_assignment_ds.customer_dim` c ON 
+c.CUSTOMER_ID=f.CUSTOMER_ID);

@@ -1,0 +1,3 @@
+Dashboard is created in the looker studio
+
+URL = "https://lookerstudio.google.com/embed/reporting/d84827a5-76db-4301-b439-c71bcf9fa9e5/page/FIbbD"
